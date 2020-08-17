@@ -96,6 +96,6 @@ $ curl -i -X POST -H "Content-Type:application/json" -d "{
             }
         ],
         "email": "akhil@gmail.com"
-    }" http://localhost:8080/contacts/
+    }"  
 
 ```
