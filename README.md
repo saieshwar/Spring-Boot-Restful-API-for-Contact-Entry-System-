@@ -77,28 +77,25 @@ Once the application is started,
 ```
 ##For update replace POST to PUT
 $ curl -i -X POST -H "Content-Type:application/json" -d "{
-    "address": {
-        "street": "Barton Creek Drive",
-        "city": "Charlotte",
-        "state": "North Carolina",
-        "zip": "28262"
-    },
-    "name": {
-        "first": "Akhilshetty",
-        "middle": "",
-        "last": "Madhamshetty"
-    },
-    "phones": [
-        {
-            "number": "1234567890",
-            "type": "work"
+        
+        "name": {
+            "firstName": "Akhil",
+            "middleName": "Shetty",
+            "lastName": "Madhamshetty"
         },
-        {
-            "number": "9876543210",
-            "type": "mobile"
-        }
-    ],
-    "email": "akhil@gmail.com"
-}" http://localhost:8080/contacts/
+        "address": {
+            "street": "Barton",
+            "city": "Charlotte",
+            "state": "NC",
+            "zip": "28262"
+        },
+        "phones": [
+            {
+                "number": "12345",
+                "type": "personal"
+            }
+        ],
+        "email": "akhil@gmail.com"
+    }" http://localhost:8080/contacts/
 
 ```
