@@ -9,6 +9,18 @@ This is a spring boot REST API that will enable a client to perform CRUD operati
 
 <br/>
 
+# Execution
+```
+# To build the project standard maven build is sufficient
+mvn clean install
+
+# To start/run the project spring boot maven plugin is included just run
+mvn spring-boot:run
+
+# The integration test may be executed using
+mvn test
+```
+
  # Usage 
 Once the application is started,
 
